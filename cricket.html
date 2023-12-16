@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .field {
+            height: 600px;
+            width: 1300px;
+            border: 2px solid green;
+            padding: 50px;
+            margin: 100px;
+        }
+
+        .bat img {
+            transition: transform 0.5s;
+            transform-origin: top;
+            margin: 00px 0px 100px 300px;
+            transform: rotate(60deg);
+
+        }
+
+        .field:hover>.bat img {
+            transform: rotate(-20deg);
+        }
+
+        .boll {
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            border-radius: 25px;
+            translate: 540px -250px;
+            transition: transform 1s ease-out;
+            transition-delay: 0.23s;
+        }
+
+        .field:hover>.boll {
+            transform: translate(800px, -300px);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="field">
+        <div class="bat">
+            <img src="/pngtree-wood-weapon-cricket-bat-clip-art-png-image_2957539.jpg" alt="">
+        </div>
+        <div class="boll"></div>
+    </div>
+</body>
+
+</html>

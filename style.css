@@ -1,0 +1,56 @@
+.Main-menu {
+    display: flex;
+
+}
+
+.Main-menu>li {
+    color: green;
+    margin-right: 20px;
+    padding: 0 10px;
+    font-size: 40px;
+}
+
+ul>li {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.Main-menu>li:hover {
+    background-color: gray;
+
+}
+
+
+
+.Main-menu>li>.sub-menu>li {
+    background-color: lightgrey;
+    padding: 0 4px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.sub-menu {
+    padding: 0;
+    position: absolute;
+}
+
+
+
+
+
+.sub {
+    font-size: 40px;
+
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.1s, transform 2s;
+
+}
+
+.Main-menu>li:hover>.sub-menu>.sub {
+    opacity: 100%;
+
+
+
+}
